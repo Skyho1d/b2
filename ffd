@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>blog</title>
+	<style>
+	*{box-sizing: border-box;}
+	.container{width: 100%;}
+	header {height: 350px;
+		background-image: url(http://themefunction.com/html/eventime/images/banner/banner3.jpg);
+		background-repeat: no-repeat;}
+	header a{text-transform: uppercase;
+ color: white;
+ font-size: 16px;
+text-decoration: none;
+ margin-right: 16px;
+ } 
+ header a:hover{color: orange;}
+ .head {margin-top: 10px;
+ 	margin-right: 100px;}
+ span { font-size: 36px;
+ color: white;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+ }
+header h2{font-family: 'Roboto', sans-serif;
+color:#fff;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+margin-top: 110px;
+margin-left: 10px; }
+
+a{text-decoration: none;}
+.hdli li{color: white; font-size: 16px; display: inline; padding:8px; }
+.hdli{list-style-type: square;
+text-align: center;}
+
+.sidebar{height: 1440px;
+width: 30%;
+float: left; 
+clear: both;}
+.recent-list a{color: black;}
+.cell img{width: 100%;}
+ .cell h4{  float: left; text-align: right;
+ }
+ .categories {list-style: none;}
+ .categories li{color: black; 
+ 	border-radius: 0;
+ 	padding: 15px;
+ 	padding-left: 0px;
+ 	font-weight: 400;
+ 	border-bottom: 1px solid #ddd;}
+.side-head{font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    line-height: normal;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+
+}
+.side-head:before{content: "";
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+    width: 40px;
+    height: 3px;
+    left: 0;
+    z-index: 1;
+    background: #e84b11;
+}
+ 
+</style>
+</head>
+<body> <div class=".container">
+	<header> <span> eventime </span> 
+		<div class="head"  style="float: right;">
+	<a href=""> home</a> 
+	<a href=""> speakers</a>
+	<a href="">schedule</a>
+	<a href="">venue</a>
+	<a href="">blog</a> 
+
+</div>
+<div>
+<h2>blog</h2>
+<ul class="hdli">
+	<li> HOME</li>
+	<li>/</li>
+	<li> BLOG</li>
+	<li></li>
+</ul>
+</div>
+</header>
+<div class="body">
+<div class="sidebar">
+	<div class="recent-posts">
+		<h3 class="recent"> recent posts</h3>
+		<ul class="recent-list">
+			<!--first post-->
+			<li><div class="cell"><a href="k"><img src="http://themefunction.com/html/eventime/images/blog/blog4.jpg"></a>
+				<h4><a href="#">New Partnership Aims to Turn eSports Into Larger Public Events</a></h4>
+</div>
+
+
+			</li>
+			<li><div class="cell"><a href="k"><img src="http://themefunction.com/html/eventime/images/blog/blog4.jpg"></a>
+				<h4><a href="#">New Partnership Aims to Turn eSports Into Larger Public Events</a></h4>
+</div>
+
+
+			</li>
+			<li><div class="cell"><a href="k"><img src="http://themefunction.com/html/eventime/images/blog/blog4.jpg"></a>
+				<h4><a href="#">New Partnership Aims to Turn eSports Into Larger Public Events</a></h4>
+</div>
+
+			</li>
+			<li><div class="cell"><a href="k"><img src="http://themefunction.com/html/eventime/images/blog/blog4.jpg"></a>
+				<h4><a href="#">New Partnership Aims to Turn eSports Into Larger Public Events</a></h4></div>
+
+
+			</li>
+
+		</ul>
+
+		<div class="side-menu">
+		<h3 class="side-head"> categories</h3>		
+          <ul class="categories">
+          	<li>culture</li>
+          	<li>business</li>
+          	<li>social</li>
+          	<li>entertainment</li>
+          	<li>conference</li>
+          	
+          </ul>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+	
+
+</div>
+
+
+
+</div>
+</body>
+</html>
