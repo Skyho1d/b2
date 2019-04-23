@@ -1,103 +1,315 @@
 <!DOCTYPE html>
 <html>
-   <head>
-  <meta charset="utf-8">
-  <title>Css Exercise 2</title>
-  <style >
-.container{width: 99%;
-   margin: auto;
-   border: 4px solid #FFF;
-   height: 800px;
+<head>
+	<title>blog</title>
+	<style>
+	*{box-sizing: border-box;
+		margin:0px; }
+
+	/* header */
+.clear {clear: both;}
+.container {width: 86.66%;margin: auto;}
+.header {
+    background-image:"../images/images.jpg";
+    width: 100%;
+    height:350px;
+    color: white;
+    background-position: 50%;
+    background-size: cover;
+    opacity: 0.8;
+    margin-bottom: 0px;
+}
+.header h1 {float: left; padding-top: 28px;}
+.header h1 a:hover{color:#EA531C;}
+.header h1 a {color:white;}
+.header ul {
+    overflow: hidden;  
+    list-style: none;
+    float: right;
+    padding-top: 28px;
+    
+}
+.header ul li {
+    float: left;
+    padding: 10px;
+}
+.header ul li a {
+    text-decoration: none;
+    color: white;
+   font-size: 14px;
+   font-weight: 700;
+   text-transform:uppercase;
+}
+.header ul li a:hover{ color:#EA531C;}
+.header h2 {
+    text-align: center;
+    margin: 20px 0 10px;
+    padding-top: 28px;
+    
+}
+.header p {
+    text-align: center;
+}
+.header span:hover {
+    color:#EA531C;
+}
+/*end header*/
+ .body{width: 75%; margin: auto;}
+ 
+ 
+
+a{text-decoration: none;}
+.hdli li{color: white; font-size: 16px; display: inline; padding:8px; }
+.hdli{list-style-type: square;
+text-align: center;}
+
+.sidebar{height: 1600px;
+width: 30%;
+margin-right: 50px;
+position: relative;
+float: left; 
+clear: both;
+clear: both;}
+.recent-list a{color: black;}
+
+.cell li{border-bottom: 1px solid #dadada;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+    line-height: 30px;    display: list-item;
+   height: 81px; 
+
    }
-header{text-align: left;
- height: 280px;
- background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYRO5NroEpTRRsVuf6B39i_pStxRWoaakaIyR_RoznH_RpbW9v");
- background-size: cover;
+
+.cell img{    margin-right: 15px;
+    width: 33%;
+
+    height: 65px;
+display: inline;} 
+.cell h4 {text-align: right; float: left; font-size: 14px;
+	width: 60%;
+display: inline;}
+ .recent-list{list-style: none;}
+ .recent-list li h4{float: right;}
+ .categories {list-style: none;}
+ .categories li{color: black; 
+ 	border-radius: 0;
+ 	padding: 15px;
+ 	padding-left: 0px;
+ 	font-weight: 400;
+ 	border-bottom: 1px solid #ddd;}
+ 	.categories li:hover{color: #ff591d;}
+.side-head{font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    line-height: normal;
+    color: #303030;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+
 }
-header p{color: #c8b367;
-font-size: 25px;
-
-padding-left: 8px;}
-
-.koko{color: #fbfbfb;
-
-font-size: 36px;}
-article{width: 75%;
-background-color: #f3e8aa;
-height:400px;
-padding-left: 8px; 
-float: left;
+.side-head:before{content: "";
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+    width: 40px;
+    height: 3px;
+    left: 0;
+    z-index: 1;
+    background: #e84b11;
 }
-article h3{color: #884a1c;
-font-size: 20px;}
-aside {float: right;
-background-color: #f1c969;
-width: 25%;
-margin-top: -400px;
-height:400px;
-padding-left: 9px;}
-aside div{background-color: #595a38;
-color: #fdfdfd;
-font-size: 22PX;
-width: 95%;
-margin: auto;}
+.tags p{border: 1px solid #dadada;
+	display: inline-block;
+    color: #303030;
+    margin-top: 9px;
+  
+    font-size: 14px;
+    padding: 15px 15px;
+padding-top: 3px;
+padding-bottom: 3px;}
+.tags p:hover{    background: #ea531c;
+    color: #fff;
+    border: 1px solid transparent;
+cursor: pointer;}
 
-aside p{font-size: 20px;}
-footer{
-   background-color: #5A593A;
-   height: 100px;
-   text-align: center;
-   line-height: 90px;
-   color: #FFF;
-   font-size: 20px;
-   font-weight: bold;
-}    
-     .fix{clear: both;}
-  	
-  </style>
+
+ h3.side-head{margin-top: 100px;}
+
+.right{margin-top: 50px;
+width: 63%;
+position: relative;
+float: left;}
+.right img {width: 100%;}
+.right a {color: #303030;
+font-size: 24px;}
+a:hover{color:#e84b11;}
+ a.button{background-color: #ea531c;
+border: 2px solid #00000000;
+color: white;
+padding-left: 8px;
+width: 20%;
+position: static;
+padding-right: 8px;
+margin-bottom: 20px;
+border-radius: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    }
+    .sidebar li:hover {cursor: pointer;}
+    .button:hover{background-color: #7c7c7c;}
+
+    
+    p{font-family: 'Droid Sans', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    line-height: 24px;
+    font-size: 15px;
+    color: #7c7c7c;
+    font-weight: 500;}
+    .parg {border-bottom: 2px solid  #7c7c7c;
+    	border-bottom-style: dashed;
+    	margin-top: 55px;
+     }
+</style>
 </head>
-<body>
-  <div class="container">
-     <header>
-        <div>
-           <p class="koko">N A T U R E</p>
-           <p>the physical universe</p>
+<body> 
+	   <div class="header">
+        <div class="container">
+            <h1><a href="#home.html">EvenTime</a> </h1>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">Speakers</a></li>
+                <li><a href="">Schedule</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">tickets</a></li>
+                <li><a href="">venu</a></li>
+                <li><a href=""> About</a></li>
+
+            </ul>
+            <div class="clear"></div>
+            <div class="md">
+                <h2>Speakers</h2>
+                <p>Home/Speaker/<span>AllSpeakers</span></p>
+            </div>
         </div>
-     </header> 
-     <article>
-        <h3>Nature</h3>
-        <p>Nature,in the broadest sense</p> 
-        <h3>Earth</h3>
-        <p>Earth (or,<q>The earth</q>)The fifth largest planet in the solar system</p> 
-        <h3>Life</h3>
-        <p>Scientist generally acceptthat the bioligical manifestation of life </p>  
-     </article>
-     <aside>
-       <div>
-          See also 
-       </div>
-       <p>Science:</p>
-        <ul>
-           <li><a href="#">Natural history</a> </li>
-           <li><a href="#">Natural philosofy</a></li>
-           <li>   <a href="#">Natural science</a></li>
-        </ul>
-        <p>Philosophy:</p>
-        <ul>
-           <li><a href="#">Nature philosofy</a></li>
-           <li><a href="#">Mother nature</a></li>
-           <li><a href="#">Naturalism philosofy</a></li>
-        </ul>
-        <p>Organizations:</p>
-        <ul>
-           <li><a href="#">The nature Conservancy</a></li>
-           <li><a href="#">Nature Detectives</a></li>
-        </ul>
-     </aside>
-     <div class="fix"></div>
-     <footer>
-       &copy;Copyright 2008 Wikibedia
-     </footer>
-  </div>
+    </div>
+<div class="body">
+<div class="sidebar">
+	<div class="recent-posts">
+		<h3 class="side-head"> Recent posts</h3>
+		<ul class="recent-list">
+			<!--first post-->
+			<li><div class="cell"><a href="k"><img src="../images/blog4.jpg" alt="blog4"></a>
+				<h4><a href="#">New Partnership Aims to Turn eSports Into Larger Public Events</a></h4>
+</div>
+
+
+			</li>
+			<li><div class="cell"><a href="k"><img src="../images/blog3.jpg"></a>
+				<h4><a href="#">New Partnership Aims to Turn eSports Into Larger Public Events</a></h4>
+</div>
+
+
+			</li>
+			<li><div class="cell"><a href="k"><img src="../images/blog2.jpg"></a>
+				<h4><a href="#">New Partnership Aims to Turn eSports Into Larger Public Events</a></h4>
+</div>
+
+			</li>
+			<li><div class="cell"><a href="k"><img src="../images/blog1.jpg"></a>
+				<h4><a href="#">New Partnership Aims to Turn eSports Into Larger Public Events</a></h4></div>
+
+
+			</li>
+
+		</ul>
+
+		<div class="side-menu">
+		<h3 class="side-head"> categories</h3>		
+          <ul class="categories">
+          	<li>culture</li>
+          	<li>business</li>
+          	<li>social</li>
+          	<li>entertainment</li>
+          	<li>conference</li>
+          	
+          </ul>
+
+		</div>
+
+
+<div class="side-menu">
+		<h3 class="side-head"> Archives</h3>		
+          <ul class="categories">
+          	<li>Feburay 2016</li>
+          	<li>January 2016</li>
+          	<li>December 2015</li>
+          	<li>November 2015</li>
+          	<li>October 2015</li>
+          	
+          </ul>
+
+		</div>
+	</div>
+
+
+<div class="tags"> <h3 class="side-head"> Tags</h3>
+<P>Culture</P>
+<P>Design</P>
+<P>Music</P>
+<P>Entertainment</P>
+<P>Social</P>
+<P>Business</P>
+<P>News</P>
+<P>Event</P>
+</div>
+
+
+</div>
+
+<div class="right">
+	<div class="parg">
+	<img src="../images/blog4.jpg">
+	<a href="#">See Eventime Creative Strategy to Tap Into New York City Marathon Buzz Station</a>
+	<p>See Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz Station</p>
+	<p><a href="#" class="button">continue reading</a></p>
+</div>
+
+
+<div class="parg">
+	<iframe src="https://www.youtube.com/watch?v=Y4ZixhH_KZ4" width="100%" ></iframe>
+	<a href="#">See Eventime Creative Strategy to Tap Into New York City Marathon Buzz Station</a>
+	<p>See Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz Station</p>
+	<a href="#" class="button" >continue reading</a>
+</div>
+
+
+
+
+<div class="parg">
+	<img src="../images/blog1.jpg">
+	<a href="#">See Eventime Creative Strategy to Tap Into New York City Marathon Buzz Station</a>
+	<p>See Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz Station</p>
+	<a href="#" class="button">continue reading</a>
+</div>
+
+
+
+</div>
+
+   
+
+	
+
+</div>
+
+
+
+
+
 </body>
 </html>
