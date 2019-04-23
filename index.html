@@ -45,9 +45,11 @@
     text-align: center;
     margin: 20px 0 10px;
     padding-top: 28px;
+    cursor: pointer;
     
 }
 .header p {
+	cursor: pointer;
     text-align: center;
 }
 .header span:hover {
@@ -107,7 +109,7 @@ display: inline;}
     color: #303030;
     font-family: 'Roboto', sans-serif;
     margin-left: 20px;
-
+    cursor: pointer;
 }
 .side-head:before{content: "";
     position: absolute;
@@ -119,6 +121,7 @@ display: inline;}
     z-index: 1;
     background: #e84b11;
 }
+
 .tags p{border: 1px solid #dadada;
 	display: inline-block;
     color: #303030;
@@ -138,21 +141,21 @@ cursor: pointer;}
 
 .right{margin-top: 50px;
 width: 63%;
+height: 1600px;
 position: relative;
 float: left;}
-.right img {width: 100%;}
+.right img {width: 100%; height: 340px;}
 .right a {color: #303030;
 font-size: 24px;}
 a:hover{color:#e84b11;}
  a.button{background-color: #ea531c;
 border: 2px solid #00000000;
 color: white;
-padding-left: 8px;
+padding: 12px 25px 12px 25px;
 width: 20%;
-position: static;
-padding-right: 8px;
+
+
 margin-bottom: 20px;
-border-radius: 9px;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
@@ -164,15 +167,16 @@ border-radius: 9px;
     
     p{font-family: 'Droid Sans', sans-serif;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
     line-height: 24px;
     font-size: 15px;
     color: #7c7c7c;
     font-weight: 500;}
     .parg {border-bottom: 2px solid  #7c7c7c;
+    	height: 550px;
     	border-bottom-style: dashed;
     	margin-top: 55px;
      }
+     p{margin-bottom: 10px;}
 
 
 
@@ -348,7 +352,9 @@ input[id="email"]{
 
 
 <div class="parg">
-	<video width="100%" >  <source src="https://www.youtube.com/watch?v=Y4ZixhH_KZ4"></video>
+	<iframe width="100%" height="340"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+</iframe>
 	<a href="#">See Eventime Creative Strategy to Tap Into New York City Marathon Buzz Station</a>
 	<p>See Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz StationSee Eventime Creative Strategy to Tap Into New York City Marathon Buzz Station</p>
 	<a href="#" class="button" >continue reading</a>
@@ -421,3 +427,4 @@ input[id="email"]{
 
 </body>
 </html>
+
